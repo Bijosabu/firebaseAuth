@@ -79,7 +79,6 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         backgroundColor: Colors.deepPurple[200],
         title: Text(
-          // ignore: prefer_interpolation_to_compose_strings
           user.email!,
           style: const TextStyle(fontSize: 16),
         ),
